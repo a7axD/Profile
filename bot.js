@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "p";
 var adminprefix = 'p'
+
   if (message.content.startsWith(adminprefix + 'setg')) {
     client.user.setGame(argresult);
       message.channel.send(`**✅   ${argresult}**`)
